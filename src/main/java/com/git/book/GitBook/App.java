@@ -8,6 +8,8 @@ public class App
 			System.out.println("Welcome");
 		}
 	}
+	public void addMethod(){
+		System.out.println("Add New addMethod");
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
