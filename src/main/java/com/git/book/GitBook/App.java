@@ -1,15 +1,11 @@
 package com.git.book.GitBook;
 
-/**
- * Hello world!
- *
- */
+
 public class App 
 {
 	public void Data(String name) {
-		System.out.println("name= "+name);
-		if(name.equals("javaTechie")) {
-			System.out.println("");
+		if(name.equals(Constant.Name_type)) {
+			System.out.println("Welcome");
 		}
 	}
     public static void main( String[] args )
